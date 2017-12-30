@@ -2,5 +2,11 @@
 name = "beginner_tools"
 version = "0.1.0"
 authors = ["Welperooni <7xcam7@gmail.com>"]
+description = " Useful library designed for new Rustacens, provides good examples that are useful in simple projects "
+license = "MIT"
+keywords = ["beginner", "helpful", "tools", "beginner tools"]
+repository = "https://github.com/Welperooni/beginner_tools"
+readme = "README.md"
+
 
 [dependencies]

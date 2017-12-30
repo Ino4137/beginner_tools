@@ -1,6 +1,6 @@
 [package]
 name = "beginner_tools"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Welperooni <7xcam7@gmail.com>"]
 description = " Useful library designed for new Rustacens, provides good examples that are useful in simple projects "
 license = "MIT"

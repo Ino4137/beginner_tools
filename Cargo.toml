@@ -1,13 +1,12 @@
 [package]
 name = "beginner_tools"
-version = "0.1.1"
+version = "1.0.0"
 authors = ["Welperooni <7xcam7@gmail.com>"]
 description = " Useful library designed for new Rustacens, provides good examples that are useful in simple projects "
 license = "MIT"
 keywords = ["beginner", "helpful", "tools", "beginner_tools"]
 repository = "https://github.com/Welperooni/beginner_tools"
-documentation = "https://docs.rs/beginner_tools/0.1.0/beginner_tools/"
+documentation = "https://docs.rs/beginner_tools/1.0.0/beginner_tools/"
 readme = "README.md"
-
 
 [dependencies]

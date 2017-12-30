@@ -33,17 +33,3 @@ pub fn get_stdin<T>() -> Result<T, Box<Error>>
     Ok(line.trim().parse::<T>()?)
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn general_test() {
-        let my_float = loop {
-            if let Ok(n) = get_stdin::<f64>() {
-                break n
-            };
-            println!("Wrong Input!");
-        };
-    }
-}

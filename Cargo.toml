@@ -6,6 +6,7 @@ description = " Useful library designed for new Rustacens, provides good example
 license = "MIT"
 keywords = ["beginner", "helpful", "tools", "beginner_tools"]
 repository = "https://github.com/Welperooni/beginner_tools"
+documentation = "https://docs.rs/beginner_tools/0.1.0/beginner_tools/"
 readme = "README.md"
 
 

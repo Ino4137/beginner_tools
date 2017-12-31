@@ -1,6 +1,6 @@
 //! # beginner_tools
 //!
-//! Useful library designed for new Rustacens,
+//! Helpful library designed for new Rustacens,
 //! provides good examples that are useful in simple projects
 
 use std::io::stdin;
@@ -49,13 +49,16 @@ pub fn get_stdin<T>() -> Result<T, Box<Error>>
 ///     println!("Wrong Input!");
 /// };
 ///
-/// // Shorter, asks once. Crashes if invalid input.
+/// // Shorter, asks once. Crashes if input is invalid.
 /// // Passing in an empty &str results in the same
 /// // functionality as "get_stdin()".
 /// let my_float = input::<f64>("")
 ///     .expect("Error, not a float");
 /// ```
 /// 
+/// # Errors
+///
+/// Function returns an Err(error) when user inputs an incorrect type.
 pub fn input<T>(prompt: &str) -> Result<T, Box<Error>> 
     where T: FromStr,
           T::Err: 'static + Error 
